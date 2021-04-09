@@ -2,7 +2,9 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">nobodydev</h1>
+      <h1 class="title">
+        nobodydev
+      </h1>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -26,7 +28,24 @@
 </template>
 
 <script>
-export default {}
+import Logo from 'components/Logo.vue'
+
+export default {
+  components: {
+    Logo,
+  },
+
+  data () {
+    return {
+      asd: [
+        'first',
+        'second',
+        'third',
+        'sdgsdgd',
+      ],
+    }
+  },
+}
 </script>
 
 <style>
@@ -40,8 +59,8 @@ export default {}
 }
 
 .title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
