@@ -12,9 +12,6 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-  alias: {
-
-  },
   css: [],
   plugins: [],
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
