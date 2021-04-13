@@ -13,12 +13,11 @@ module.exports = {
     'plugin:nuxt/recommended',
     'plugin:jest/recommended',
   ],
-  plugins: [
-    'vue',
-  ],
+  plugins: ['vue'],
   rules: {
     'max-len': [
-      'error', { code: 100 },
+      'error',
+      { code: 100 },
     ],
     quotes: [
       2,
@@ -26,23 +25,29 @@ module.exports = {
       { avoidEscape: true },
     ],
     'comma-dangle': [
-      'error', 'always-multiline',
+      'error',
+      'always-multiline',
     ],
     semi: [
-      'error', 'never',
+      'error',
+      'never',
     ],
     'array-element-newline': [
-      'error', { minItems: 3 },
+      'error',
+      { minItems: 2 },
     ],
     'array-bracket-newline': [
-      'error', 'always',
+      'error',
+      { minItems: 2 },
     ],
     'vue/singleline-html-element-content-newline': [
-      'error', {
+      'error',
+      {
         ignoreWhenNoAttributes: true,
         ignoreWhenEmpty: true,
         ignores: [
-          'pre', 'textarea',
+          'pre',
+          'textarea',
         ],
       },
     ],
