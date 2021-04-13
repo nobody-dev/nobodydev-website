@@ -32,6 +32,14 @@ module.exports = {
       'error',
       'never',
     ],
+    'object-property-newline': [
+      'error',
+      { allowAllPropertiesOnSameLine: false },
+    ],
+    'object-curly-newline': [
+      'error',
+      { minProperties: 2 },
+    ],
     'array-element-newline': [
       'error',
       { minItems: 2 },
