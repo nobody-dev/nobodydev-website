@@ -38,17 +38,20 @@ export default {
     locales: [
       {
         code: 'en',
+        name: 'EN',
         iso: 'en-US',
         file: 'en.js',
       },
       {
         code: 'ru',
+        name: 'RU',
         iso: 'ru-RU',
         file: 'ru.js',
       },
     ],
     defaultLocale: 'en',
     strategy: 'no_prefix',
+    seo: false,
     detectBrowserLanguage: {
       alwaysRedirect: true,
       fallbackLocale: 'en',

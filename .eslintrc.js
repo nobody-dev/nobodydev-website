@@ -38,7 +38,10 @@ module.exports = {
     ],
     'object-curly-newline': [
       'error',
-      { minProperties: 2 },
+      {
+        minProperties: 2,
+        multiline: true,
+      },
     ],
     'array-element-newline': [
       'error',

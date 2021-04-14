@@ -3,26 +3,15 @@
     <div>
       <Logo />
       <h1 class="title">
-        nobodydev
+        {{ $t("hello") }}
       </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <button
+        v-for="locale in availableLocales"
+        :key="locale.code"
+        @click.prevent.stop="$i18n.setLocale(locale.code)"
+      >
+        {{ locale.name }}
+      </button>
     </div>
   </div>
 </template>
@@ -31,9 +20,7 @@
 import Logo from '@/components/Logo.vue'
 
 export default {
-  components: {
-    Logo,
-  },
+  components: { Logo },
 
   data () {
     return {
@@ -44,6 +31,12 @@ export default {
         'sdgsdgd',
       ],
     }
+  },
+
+  computed: {
+    availableLocales () {
+      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+    },
   },
 }
 </script>
