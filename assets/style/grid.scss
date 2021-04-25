@@ -1,0 +1,19 @@
+// Grid for paddings and margins
+$grid: 8px;
+
+$grid05: $grid / 2;
+$grid2: $grid * 2;
+$grid3: $grid * 3;
+$grid4: $grid * 4;
+$grid5: $grid * 5;
+$grid6: $grid * 6;
+$grid7: $grid * 7;
+$grid8: $grid * 8;
+
+// Constants for media queries
+$breakpoint-to-phone-s: 320px;
+$breakpoint-to-phone-m: 360px;
+$breakpoint-to-phone-l: 560px;
+$breakpoint-to-tablet: 752px;
+$breakpoint-to-fablet: 1000px;
+$breakpoint-to-desktop: 1200px;
