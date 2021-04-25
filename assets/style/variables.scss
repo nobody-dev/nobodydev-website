@@ -1,0 +1,27 @@
+@import 'colors.scss';
+
+body {
+  --main-color: #{$purple};
+  --main-gradient: #{$purple-gradient};
+  --text-on-colored-bg: #{$white};
+}
+
+body.light-theme {
+  --second-color: #{$light-pink};
+  --main-text-color: #{$gray};
+  --second-text-color: #{$purple};
+  --links-color: #{$purple};
+  --links-hover-color: #{$black};
+  --main-bg: #{$white};
+  --main-bg-items: #{$white};
+}
+
+body.dark-theme {
+  --second-color: #{$gray};
+  --main-text-color: #{$white};
+  --second-text-color: #{$white};
+  --links-color: #{$white};
+  --links-hover-color: #{$purple};
+  --main-bg: #{$black};
+  --main-bg-items: #{$black-gray};
+}

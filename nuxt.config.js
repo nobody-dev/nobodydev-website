@@ -21,7 +21,7 @@ export default {
       href: '/favicon.ico',
     }],
   },
-  css: [],
+  css: ['@/assets/style/index.scss'],
   plugins: [],
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [

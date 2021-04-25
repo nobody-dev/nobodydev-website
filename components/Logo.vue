@@ -1,5 +1,7 @@
 <template>
-  <div>hi</div>
+  <div class="NuxtLogo">
+    hi
+  </div>
 </template>
 
 <style>
@@ -11,6 +13,9 @@
 @keyframes appear {
   0% {
     opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 </style>
