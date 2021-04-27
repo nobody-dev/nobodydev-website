@@ -22,7 +22,7 @@ export default {
     }],
   },
   css: ['@/assets/style/index.scss'],
-  plugins: [],
+  plugins: ['@/plugins/base-components'],
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/eslint-module',

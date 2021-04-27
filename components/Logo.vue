@@ -11,6 +11,4 @@
 </template>
 
 <script>
-import BaseImage from '~/components/_baseui/BaseImage'
-export default { components: { BaseImage } }
 </script>
