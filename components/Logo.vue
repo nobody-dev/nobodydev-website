@@ -1,12 +1,16 @@
 <template>
   <div class="NuxtLogo">
-    hi
+    <BaseImage
+      name="logo"
+      alt="Nobodydev logo"
+      height="35"
+      width="35"
+      transparent
+    />
   </div>
 </template>
 
-<style>
-.NuxtLogo {
-  animation: 1s appear;
-  margin: auto;
-}
-</style>
+<script>
+import BaseImage from '~/components/_baseui/BaseImage'
+export default { components: { BaseImage } }
+</script>
