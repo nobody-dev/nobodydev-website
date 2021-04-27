@@ -27,12 +27,20 @@ export default {
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
+    '@nuxtjs/style-resources',
   ],
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/axios',
     'nuxt-i18n',
   ],
+  styleResources: {
+    scss: [
+      './assets/style/_variables.scss',
+      './assets/style/_shadows.scss',
+      './assets/style/_grid.scss',
+    ],
+  },
   axios: {},
   i18n: {
     locales: [
