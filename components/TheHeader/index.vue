@@ -23,13 +23,13 @@ export default { name: 'TheHeader' }
   .header {
     @include main-shadow;
 
-    width: 100vw;
-    height: 60px;
     position: fixed;
     top: 0;
     z-index: 1000;
     display: flex;
     align-items: center;
+    width: 100vw;
+    height: 60px;
     background-color: var(--main-bg-items)
   }
 </style>

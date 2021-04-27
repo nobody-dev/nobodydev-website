@@ -22,9 +22,9 @@ export default {
   }
 
   .page {
+    min-height: calc(100vh - 125px);
     margin-top: 100px;
     margin-bottom: 50px;
-    min-height: calc(100vh - 125px);
 
     @media (max-width: $breakpoint-to-tablet) {
       margin-top: 50px;

@@ -23,8 +23,8 @@ export default {
 
 <style lang="scss" module>
  .container {
-    margin: auto;
-    width: 80%;
+   width: 80%;
+   margin: auto;
 
    @media (max-width: $breakpoint-to-tablet) {
      width: 90%;

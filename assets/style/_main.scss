@@ -14,8 +14,8 @@ body, html {
 }
 
 body {
+  color: var(--main-text-color);
   background-color: var(--main-bg);
-  color: var(--main-text-color)
 }
 
 #__nuxt, #__layout, #app {
@@ -37,20 +37,20 @@ a {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
-  line-height: 140%;
   color: var(--main-color);
+  line-height: 140%;
 }
 
 p {
-  font-size: 16px;
   margin: 0;
-  line-height: 150%;
   color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 150%;
 }
 
 ul {
-  list-style: none;
   padding: 0;
   font-size: 14px;
   line-height: 150%;
+  list-style: none;
 }
