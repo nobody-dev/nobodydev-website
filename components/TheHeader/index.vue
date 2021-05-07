@@ -4,13 +4,15 @@
     data-test-id="the-header"
   >
     <BaseContainer>
-      <BaseImage
-        name="logo"
-        alt="Nobodydev"
-        height="35"
-        width="35"
-        transparent
-      />
+      <a href="/">
+        <BaseImage
+          name="logo"
+          alt="Nobodydev"
+          height="35"
+          width="35"
+          transparent
+        />
+      </a>
     </BaseContainer>
   </header>
 </template>
