@@ -6,7 +6,7 @@
     <BaseContainer>
       <BaseImage
         name="logo"
-        alt="Nobodydev logo"
+        alt="Nobodydev"
         height="35"
         width="35"
         transparent
@@ -30,6 +30,6 @@ export default { name: 'TheHeader' }
     align-items: center;
     width: 100vw;
     height: 60px;
-    background-color: var(--main-bg-items)
+    background-color: var(--main-bg-items);
   }
 </style>
