@@ -1,15 +1,15 @@
 <template>
   <div :class="$style.root">
-    <TheHeader />
+    <Header />
     <Nuxt :class="$style.page" />
   </div>
 </template>
 
 <script>
-import TheHeader from '~/components/TheHeader'
+import Header from '~/components/Header'
 
 export default {
-  components: { TheHeader },
+  components: { Header },
   head () {
     return this.$nuxtI18nHead({ addSeoAttributes: true })
   },
